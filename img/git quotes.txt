@@ -1,0 +1,72 @@
+PS C:\Users\panka\Documents\fsd> cd practice
+PS C:\Users\panka\Documents\fsd\practice> git init
+Initialized empty Git repository in C:/Users/panka/Documents/fsd/practice/.git/
+PS C:\Users\panka\Documents\fsd\practice> git add loginpage.html
+PS C:\Users\panka\Documents\fsd\practice> git commit -m "we are commiting login page"
+[master (root-commit) 6cb47e8] we are commiting login page
+ 1 file changed, 42 insertions(+)
+ create mode 100644 loginpage.html
+PS C:\Users\panka\Documents\fsd\practice> git remote add origin https://github.com/Pankaj2303/project.git
+PS C:\Users\panka\Documents\fsd\practice> git push origin master                                                                                                 
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 824 bytes | 412.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Pankaj2303/project.git
+ * [new branch]      master -> master
+PS C:\Users\panka\Documents\fsd\practice> git add .    
+PS C:\Users\panka\Documents\fsd\practice> git commit -m "commiting all the files"
+[master 724ffff] commiting all the files
+ 5 files changed, 324 insertions(+)
+ create mode 100644 daily task/loops.html
+ rename loginpage.html => index.html (100%)
+ create mode 100644 password.html
+ create mode 100644 regestraion.html
+ create mode 100644 style.css
+PS C:\Users\panka\Documents\fsd\practice> git push origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 2.62 KiB | 149.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Pankaj2303/project.git
+   6cb47e8..724ffff  master -> master
+PS C:\Users\panka\Documents\fsd\practice> git add .
+PS C:\Users\panka\Documents\fsd\practice> git commit -m "we are commiting"
+[master 67538f8] we are commiting
+ 2 files changed, 1 insertion(+), 32 deletions(-)
+ delete mode 100644 daily task/loops.html
+PS C:\Users\panka\Documents\fsd\practice> git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 305 bytes | 76.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Pankaj2303/project.git
+   724ffff..67538f8  master -> master
+PS C:\Users\panka\Documents\fsd\practice> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\panka\Documents\fsd\practice> git add .
+PS C:\Users\panka\Documents\fsd\practice> git commit -m " updated regestration page"
+[master 39d51ec]  updated regestration page
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\panka\Documents\fsd\practice> git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 307 bytes | 153.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Pankaj2303/project.git
+   67538f8..39d51ec  master -> master
+PS C:\Users\panka\Documents\fsd\practice> 
